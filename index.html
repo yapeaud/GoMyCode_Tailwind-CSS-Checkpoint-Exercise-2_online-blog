@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yapeaud Blog</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-50 font-sans text-gray-900">
+
+    <!-- Section En-tête -->
+    <header class="bg-blue-600 text-white py-4">
+        <div class="container mx-auto flex items-center justify-between">
+            <div class="text-2xl font-bold">
+                <a href="#">Yapeaud Blog</a>
+            </div>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="#" class="hover:text-gray-200">Accueil</a></li>
+                    <li><a href="#" class="hover:text-gray-200">Articles</a></li>
+                    <li><a href="#" class="hover:text-gray-200">À propos</a></li>
+                    <li><a href="#" class="hover:text-gray-200">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Section des Articles Vedettes -->
+    <section class="py-16">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-8">Articles Vedettes</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+                <!-- Article 1 -->
+                <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <img src="/assets/images/technology-7772914_640.webp" alt="Article 1" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Circuit imprimer</h3>
+                        <p class="text-gray-600 mb-4">Les circuits de demain grâce à l'IA.</p>
+                        <a href="#" class="text-blue-600 hover:underline">Lire la suite</a>
+                    </div>
+                </div>
+                <!-- Article 2 -->
+                <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <img src="assets/images/hypertension-867855_1280.jpg" alt="Article 2" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Hypertension</h3>
+                        <p class="text-gray-600 mb-4">Les causes de l'hypertension.</p>
+                        <a href="#" class="text-blue-600 hover:underline">Lire la suite</a>
+                    </div>
+                </div>
+                <!-- Article 3 -->
+                <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <img src="./assets/images/signature-962355_1280.jpg" alt="Article 3" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Contrat</h3>
+                        <p class="text-gray-600 mb-4">Tout savoir sur la signature d'un contrat en business.</p>
+                        <a href="#" class="text-blue-600 hover:underline">Lire la suite</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section des Catégories -->
+    <section class="bg-gray-100 py-16">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-8">Catégories</h2>
+            <div class="flex justify-center space-x-6">
+                <span class="bg-blue-600 text-white py-2 px-6 rounded-full text-lg">Technologie</span>
+                <span class="bg-blue-600 text-white py-2 px-6 rounded-full text-lg">Lifestyle</span>
+                <span class="bg-blue-600 text-white py-2 px-6 rounded-full text-lg">Business</span>
+                <span class="bg-blue-600 text-white py-2 px-6 rounded-full text-lg">Santé</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section des Articles Récents -->
+    <section class="py-16">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-8">Articles Récents</h2>
+            <ul class="space-y-6">
+                <li>
+                    <a href="#" class="text-lg font-semibold hover:text-blue-600">Titre de l'article récent 1</a>
+                    <p class="text-gray-600">Publié le 10 décembre 2024</p>
+                </li>
+                <li>
+                    <a href="#" class="text-lg font-semibold hover:text-blue-600">Titre de l'article récent 2</a>
+                    <p class="text-gray-600">Publié le 8 décembre 2024</p>
+                </li>
+                <li>
+                    <a href="#" class="text-lg font-semibold hover:text-blue-600">Titre de l'article récent 3</a>
+                    <p class="text-gray-600">Publié le 5 décembre 2024</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Formulaire d'Abonnement -->
+    <section class="bg-blue-600 py-16 text-white text-center">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold mb-4">Abonnez-vous à notre Newsletter</h2>
+            <p class="mb-8">Recevez les dernières mises à jour et articles directement dans votre boîte de réception.</p>
+            <form action="#" class="flex justify-center">
+                <input type="email" placeholder="Entrez votre email" class="px-4 py-2 rounded-l-md text-black">
+                <button type="submit" class="bg-blue-800 text-white px-6 py-2 rounded-r-md hover:bg-blue-700">S'abonner</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto flex justify-between items-center">
+            <div>&copy; 2024 Blog en ligne. Tous droits réservés.</div>
+            <div class="flex space-x-6">
+                <a href="#" class="hover:text-gray-400">Facebook</a>
+                <a href="#" class="hover:text-gray-400">Twitter</a>
+                <a href="#" class="hover:text-gray-400">Instagram</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
